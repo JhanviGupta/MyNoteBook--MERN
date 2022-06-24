@@ -1,6 +1,5 @@
 import React, { useContext, memo } from 'react'
 import { FaTrashAlt, FaRegEdit } from "react-icons/fa";
-import DeleteNote from './DeleteNote';
 import noteContext from '../context/notes/NoteContext';
 
 const NoteItem = (props) => {

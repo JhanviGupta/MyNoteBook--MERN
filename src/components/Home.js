@@ -1,14 +1,6 @@
-import React, { useContext, useState, useEffect } from 'react'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import React, { useContext, useState } from 'react'
 import noteContext from '../context/notes/NoteContext';
 import Notes from './Notes';
-import axios from 'axios';
-import AddNote from './AddNote';
 
 export default function Home(props) {
     const context = useContext(noteContext);
